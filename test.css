@@ -1,0 +1,133 @@
+table {
+    width: 500px;
+}
+table.td.th {
+    border: 1px solid #676767;
+}
+thead td {
+    font-weight: bold; text-align: center;
+}
+
+
+
+
+
+
+body {
+    /*text-align: center;*/
+    background: #EFEFEF; font-family:aria, tahoma;
+  
+}
+
+input[type="text"],
+input[type="password"],
+textarea
+{
+padding: 8px;
+width:300px;
+display:block; /*display:block; هو لجعل المحتوى فوق بعض وليس بجناب بعض بدلا من استخدام br على كل كود*/
+}
+
+
+textarea
+{
+    height: 200px;
+margin-bottom: 10px;
+}
+
+fieldset
+{
+    background: #FFF;
+    border:1px solid #CCC;
+    padding: 10px; 
+    width: 500px;
+    margin: 20px auto;
+}
+
+legend
+{
+    background: #fff;
+    border: 1px solid #ccc;
+    padding: 5px;
+    /*
+    يمكن إزالة border و padding لرؤية ما هوالافضل ان اضعهم ام ازيلهم
+    */
+}
+
+label
+{
+    margin-bottom: 10px;
+    display: block; /*
+display يقوم بعمل فاصل بين المحتويات
+    */
+}
+
+input 
+{
+    margin-bottom: 10px;
+
+}  
+
+input[type="text"], input[type="password"] 
+{
+    padding:8px; 
+    width:300px; 
+    display: block;
+}
+
+hr 
+{
+    border: 1px solid #EEE;
+}
+
+h1 { 
+    font-size: 30px ;
+    color: red;
+}
+
+
+blockquote
+{
+    background: #EEE;
+    padding:10px;
+}
+
+table th { background-color: #676767; font-weight: bold; color: gold; padding: 5px;}
+ table td {text-align: center; }
+ table {border: 1px solid #676767; width: 1000;  }
+ thead th { background-color: #676767; font-weight: bold; color: gold; padding: 5px;}
+ tfoot td { font-weight: bold; text-align: center; color: blue; background-color: burlywood; padding: 5px;}
+ tbody td { text-align: center; color: black; background-color: blueviolet; padding: 10px;}
+ 
+
+.div1
+ {
+     color: red;
+     background: BLACK;
+  }
+
+.div2
+ {
+     color: green;
+     background: burlywood;
+  }
+
+.span
+ {
+      color: green;
+}
+
+function sayHello
+  {
+      alert("Hello HTML");
+  }
+  
+fieldset
+{
+    background: #ddd; padding:10px; border: 1px solid #ccc; margin-bottom: 20px;
+}
+
+legend
+{
+    background: #fff; padding:10px; border: 1px solid #ccc;
+}
