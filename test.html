@@ -2,9 +2,9 @@
 <head>
 <title>شرح استخدام اكواد و وسوم html</title>
 
-<link rel="icon" href="logo-w-png-2.png">
-<link rel="icon" type="image/png" href="logo-w-png-2.png" sizes="16x16">
-<link rel="stylesheet" href="test.css">
+<link rel="icon" href="imgs/logo-w-png-2.png">
+<link rel="icon" type="image/png" href="imgs/logo-w-png-2.png" sizes="16x16">
+<link rel="stylesheet" href="css/test.css">
 
 </head>
 <body>
@@ -16,7 +16,7 @@
 <br>
 وضع icon: وضع الكود في قسم head
 <br>
-<link rel="icon" type="image/png" href="logo-w-png-2.png" sizes="16x16">
+<link rel="icon" type="image/png" href="css/logo-w-png-2.png" sizes="16x16">
 
 كود لدعم اللغات المختلفة الموجودة في نفس الموقع 
 <meta charset="utf-8"><!--يوضع في head-->
@@ -287,10 +287,10 @@ this is <em>bold text</em>
 <hr>
 
 width: التحكم في حجم المحتوى 
-<img src="36622310-media_httpfarm7static_rigfi.jpg" alt="لا للعنصرية" width="300" >
+<img src="imgs/36622310-media_httpfarm7static_rigfi.jpg" alt="لا للعنصرية" width="300" >
 <br>
 height: التحكم في طول المحتوى
-<img src="36622310-media_httpfarm7static_rigfi.jpg" alt="لا للعنصرية" width="300" height="900">
+<img src="imgs/36622310-media_httpfarm7static_rigfi.jpg" alt="لا للعنصرية" width="300" height="900">
 
 <hr>
 text text text<span style="color: green;">text</span>text text text<!--يقوم span بالتحكم بكلمة معينة او جملة موجودة في النص وتغيير من شكله و حجمه-->
@@ -354,7 +354,7 @@ img: كود لإضافة الصور
 <br>
 إذا اردنا وضع اسم الصورة بدلا من رابط الصورة
   
-<img src="36622310-media_httpfarm7static_rigfi.jpg" alt="لا للعنصرية" width="200" title="لا للعنصرية" >
+<img src="imgs/36622310-media_httpfarm7static_rigfi.jpg" alt="لا للعنصرية" width="200" title="لا للعنصرية" >
 <br>
 و إذا اردنا وضع رابط الصور بدلا من اسم الصورة 
 <br>
@@ -408,7 +408,7 @@ a: وضع الروابط
 <br>
 جعل الرابط على شكل صورة
 <a href="http://www.google.com" target="_blank">
-<img src="Google-3.jpg" width= 100px>
+<img src="imgs/Google-3.jpg" width= 100px>
 </a>
 <hr>
 وضع خلفية
@@ -677,8 +677,7 @@ email: <input type="email">
 <div id="test">test</div>
 <br>
 <div id="number"></div>
-
-
+<hr>
 
 <h1>متغيرات جافا سكريبت</h1>
 <p>ارباح السنة</p>
@@ -700,12 +699,68 @@ email: <input type="email">
 <div id="Name"></div>
 <hr>
 <h1>data type</h1>
-<div id="mainPrice"></div>
-<div id="array"></div>
+<div id="mainPrice"></div><h2>boolean</h2>
 <br>
-<div id="object"></div>
+<div id="array"></div><h2>نوعه array</h2>
 <br>
-<div id="string"></div>
+<div id="object"></div><h2>نوعه object</h2>
+<br>
+<div id="string"></div><h2>نوعه string</h2>
+<br>
+<div id="number1"></div><h2>نوعه number</h2>
+<hr>
+<h2> يوجد ايضا انواع اخرى من البيانات مثل </h2>
+<ul>
+    <li>undefined</li>
+    <li>null</li>
+    <li>nan: تعني لا يوجد رقم</li>
+    <li>symbol</li>
+</ul>
+<br>
+<p>عند كتابة typeof ومن ثم اسم المتغير في ادوات المطورين في قسم console 
+فسوف يظهر لي ما هو نوع البيانات التي كتبتها
+مثل 
+<br>typeof myAge سيظهر لي ان نوعه number 
+<br>typeof myName سيظهر ان نوعه string
+<br>وهكذا
+</p>
+<hr>
+<h1>concatenation</h1>
+<h2>ربط الحروف جنبا الى جنب</h2>
+<p>
+<div id="concatenation"></div><br>
+<div id="concatenation4"></div>
+</p>
+</p>
+<h1>output</h1>
+<div id="output1">old test</div>
+<br>
+<div id="output2">old test</div>
+<hr>
+<h1> دروس عن JavaScript Operators</h1>
+<div id="operators"></div>
+<br>
+<hl>
+    <h2>اشكال علامات الرياضية في البرمجة</h2> 
+    <ol>( + ) علامة زائد</ol> 
+    <ol>( - ) علامة ناقص</ol>
+    <ol>( / ) علامة تقسيم</ol>
+    <ol>( * ) علامة ضرب</ol>
+    <ol>( % ) هي علامة حسابية ولكن قليلة الاستخدام ومعقدة بعض الشئ</ol>
+</hl>
+<hr>
+<h1>درس عن if, else</h1>
+
+<div id="theage"></div>
+<hr>
+<h1>Conditional Operators</h1>
+<hr>
+<h1>Function</h1>
+<h2>Function - Basic</h2>
+<button onclick="sayHi()">Call The Function</button> <!--استدعاء alert -->
+<br>
+<h2>function - return</h2>
+
 </p>
 <script src="test.js"></script> <!-- وضع وسم الجافاسكريبت في اي مكان بال html الا بمكان واحد وهو اسفل تاج head
     يمكن وضعه فوق قفل </head> او اسفل وسم body او فوق قفل </body> اوفي ملف خارجي /body 
