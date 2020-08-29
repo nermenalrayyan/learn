@@ -1,0 +1,135 @@
+/* start global */
+*
+{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; 
+    /*  -webkit-box-sizing, -moz-box-sizing, box-sizing يضبط ال margin و  padding الموجودة تلقائيا في الصفحة*/
+}
+
+/* body
+{
+    height: 600px;
+} */
+
+.container
+{
+    width: 1200px;
+    margin: auto;
+}
+
+ul
+{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+/* end global */
+
+
+
+
+
+/* strat framework */
+.clearfix
+{
+    clear: both;
+}
+
+li, a, button, .submit
+{
+    cursor: pointer;
+}
+/* strat framework */
+
+
+
+
+
+/* strat header */
+.header {
+    height: 100vh;
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    position: relative;
+}
+
+/* .header img
+{
+    width: 100%;
+    height: 100vh;
+} */
+
+.header .navbar
+{
+    background-color: rgba(0,0,0,0.4);
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    color: seashell;
+    font-size: 17px;
+    /* 
+    margin-top: -616px;
+    margin-left: 115px;
+    color: #fff; */
+}
+
+.header .navbar .brand
+{
+    margin-top: 29px;
+    float: left;
+    width: 49%;
+    text-transform: uppercase;
+}
+
+.header .navbar .links
+{
+    float: left;
+    width: 51%;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.header .navbar .links li
+{
+    display: inline-block;
+    padding: 10px 0;
+    margin: 0 15px;
+    text-transform: uppercase;
+    border-bottom: 3px solid transparent;
+    transition: 0.6s ease;
+}
+
+.header .navbar .links li.active,
+.header .navbar .links li:hover
+{
+    /* color: #1abc9c;
+    border-bottom: 2px solid #1abc9c; */
+
+    color: bisque;
+    border-bottom: 2px solid bisque;
+    font-size: 18px;
+}
+
+.header .slider {
+    /* transition: all 1s; */
+   /* z-index: 2; */
+   display: flex;
+   height: 100%;
+}
+
+.header .slider {
+    min-width: 100%;
+}
+/* end header */
+
+
+

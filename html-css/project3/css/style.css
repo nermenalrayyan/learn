@@ -1,0 +1,113 @@
+/* start main rulez */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+}
+
+.container{
+    width: 1225px;
+    margin: auto;
+}
+/* start main rulez */
+
+
+
+
+/* start framework */
+li, button, a, .submit{
+    cursor: pointer;
+}
+/* start framework */
+
+
+
+
+/* start header  */
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../images/deep-blue-background.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+/* header .main .logo{
+    color: #fff;
+    margin-top: -21px;
+    margin-left: 111px;
+} */
+
+header .logo h1{
+    float: left;
+    width: 168px;
+    height: auto;
+    /* color: #fff; */
+    color: #ddd;
+    padding: 0 20px;
+    font-size: 36px;
+    margin-top: 17px;
+}
+
+header ul{
+    list-style-type: none;
+    float: right;
+    margin-top: 25px;
+    /* margin-right: 25px; */
+}
+
+header ul li{
+  display: inline-block;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+}
+
+header ul li a:hover,
+header ul li a.active{
+    background-color: #fff;
+    color: #000;
+}
+
+ header .title{
+    position: absolute;
+    /* top: 50%;
+     left: 50%; */
+     top: 45%;
+     left: 45%;
+    /* transform: translate(-43%,-45%);  */
+    transform: scale(3.5);
+} 
+
+header .title h1{
+    /* color: #fff; */
+    color: #ddd;
+    /* font-size: 70%; */
+}
+
+header .button{
+    position: absolute; 
+    top: 67%;
+    left: 38%;
+    transform: scale(1.1);
+}
+
+header .button .btn{
+    text-decoration: none;
+    padding: 10px 30px;
+    border: 1px solid #fff;
+    color: #fff;
+    margin: 0 11px;
+    transition: 0.6s ease;
+}
+
+header .button .btn:hover{
+    background-color: #fff;
+    color: #000;
+}
+/* end header  */
