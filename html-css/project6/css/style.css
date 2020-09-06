@@ -12,227 +12,318 @@
 }
 
 body {
-    line-height: 1.5;
+    /* line-height: 1.5;
+    font-family: arial, Helvetica, sans-serif;
+    font-size: 15px; */
+    font: 15px/1.5 Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
 }
 
 .container {
-    width: 1200px;
-    width: 95%;
-    max-width: 1024px;
-    margin: 29px auto;
+    /* width: 1200px; */
+    width: 80%;
+    /* max-width: 1024px; */
+    margin: auto;
+    overflow: hidden;
 }
 
+li, button, a, .submit {
+    cursor: pointer;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.button_1 {
+    height: 38px;
+    background: #e8491d;
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #ffffff;
+}
+
+.dark {
+    padding: 25px;
+    background: #35424a;
+    color: #ffffff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
 /* end global */
 
 
 
 
-/* start framework */
 
-ul {
-    list-style: none;
-    padding: 0;
+/* start header */
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #e8491d 3px solid;
+    padding-bottom: 15px;
+}
+
+header a {
+   color: #ffffff;
+   text-decoration: none;
+   text-transform: uppercase;
+   font-size: 16px;
+}
+
+header ul {
+   margin: 0;
+   padding: 0;    
+}
+
+header li {
+    /* float: left; */
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header #branding {
+    float: left;
+    margin-top: -11px;
+}
+
+header #branding h1 {
     margin: 0;
 }
 
-li, button, a, .submit {
-    cursor: pointer; /* يجعل الماوس على شكل يد عند الوقوف عن شئ معين */
-}
-
-.my-button {
-    background: none;
-    padding: 10px 30px;
-    font-weight: bold;
-}
-
-.fl-left {
-    float: left;
-}
-
-.fl-right {
+header nav {
     float: right;
+    margin-top: -2px;
 }
-/* start framework */
 
-
-
-
-/* strat heading style */
-P {
-    margin-top: 5px;
-    margin-bottom: 7px;
-    line-height: 1.7;
+header .highlight, header .current a {
+    color: #e8491d;
     font-weight: bold;
 }
 
-h2 {
-    text-transform: uppercase; /*يجعل النص كبير*/
-    font-size: 30px;
+header a:hover {
+    color: #cccccc;
+    font-weight: bold;
+}
+/* end header */
+
+
+
+
+
+/* start showcase */
+#showcase {
+    min-height: 400px;
+    background: url('../images/laptop1.jpg') no-repeat 0 -167px;
+    background-size: cover;
+    text-align: center;
+    color: #ffffff;
+}
+
+#showcase h1 {
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+
+#showcase p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#newsletter {
+    padding: 15px;
+    color: #ffffff;
+    background: #35424a;
+    padding-top: 15px;
+}
+
+#newsletter h1 {
+    float: left;
+    margin-top: 4px;
+}
+
+#newsletter form {
+    float: right;
+    margin-top: 3px;
+}
+
+#newsletter input[type="email"] {
+ padding: 4px;
+ /* height: 25px; */
+ height: 38px;
+ width: 250px;
+}
+/* end showcase */
+
+
+
+
+
+/* start boxes */
+#boxes {
+    margin-top: 20px;
+}
+
+#boxes .box {
+    /* float: left; */
+    text-align: center;
+    width: 30%;
+    display: inline-block;
+    padding: 10px;
+    margin-left: 24px;
 } 
 
-h1, h2, h3, h4, h5, h6 {
-  margin-top: 10px;
-  margin-bottom: 10px;
-  font-weight: 300;
-}
-/* strat heading style */
-
-
-
-
-/* start text alignment */
-.text-left {
-    text-align: left;
+#boxes .box img {
+    width: 90px;
 }
 
-.text-center {
+#boxes .box .css {
+    width: 75px; 
+}
+/* end boxes */
+
+
+
+
+
+/* start sidebar */
+article#main-col {
+    float: left;
+    width: 65%;
+}
+
+article#main-col p {
+    padding: 25px;
+}
+
+article#main-col h1{
+    margin-left: 25px;
+    margin-top: 25px;
+    margin-bottom: -4px;
+}
+
+aside#sidebar {
+    float: right;
+    width: 30%;
+    margin-top: 10px;
+}
+
+aside#sidebar h3 {
+    margin-bottom: 20px;
+}
+
+aside#sidebar .quote input, aside#sidebar .quote textarea{
+width: 100%;
+padding: 5px;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+aside#sidebar .quote textarea {
+    height: 100px;
+}
+ul#services {
+    margin-top: 20px;
+    margin-left: 23px;
+}
+
+ul#services li{
+list-style: none;
+padding: 20px;
+border: #cccccc solid 1px;
+margin-bottom: 5px;
+background: #e6e6e6;
+}
+/* start sidebar */
+
+
+
+
+
+
+/* start footer */
+footer {
+    padding: 20px;
+    margin-top: 20px;
+    color: #ffffff;
+    background-color: #e8491d;
     text-align: center;
 }
+/* end footer */
 
-.text-center {
-    text-align: right;
+
+
+
+
+/* start media queries */
+@media(max-width:500px){
+ header #branding,
+ header nav,
+ header nav li,
+ header #branding h1,
+ #newsletter h1,
+ #newsletter form,
+ #boxes .box,
+ article#main-col,
+ aside#sidebar {
+     float: none;
+     text-align: center;
+     width: 100%;
+ }
+  header {
+      padding-bottom: 20px;
+  }
+
+ header ul {
+     padding-top: 20px;
+ } 
+
+ #showcase h1 {
+     margin-top: 40px;
+ }
+
+ #showcase {
+    background-size: 644px 643px;
+ }
+
+ #showcase p {
+    padding-bottom: 12px;
+ }
+
+ #newsletter {
+  padding-bottom: 23px;
+ }
+
+ #newsletter h1 {
+     margin-bottom: 15px;
+ }
+ #newsletter button,
+ .quote button {
+     display: block;
+     width: 100%;
+ }
+
+ #newsletter form input[type="email"] {
+     width: 100%;
+     margin-bottom: 5px;
+ }
+
+ article#main-col {
+    margin-left: -23px;
+    width: 409px;
+ }
+
+ article#main-col p
+ {
+    padding-left: 49px;
+ }
 }
-
-.text-justify {
-  text-align: justify; /* يجعل السطور متساوية */
-}
-/* end text alignment */
-
-
-
-
-/* start text color */
-.Red50{
-    color:#FFEBEE;
-}    
-.Red-100{
-    color:#FFCDD2;
-}   
-
-.Red-200{
-    color:#EF9A9A;
-}   
-
-.Red-300{
-    color:#E57373;
-}   
-
-.Red-400{
-    color:#EF5350;
-}   
-
-.Red-500{
-    color:#F44336;
-}   
-
-.Red-600{
-    color:#E53935;
-}   
-
-.Red-700{
-    color:#D32F2F;
-}   
-
-.Red-800{
-    color:#C62828;
-}   
-
-.Red-900{
-    color:#B71C1C;
-}   
-
-.Red-A100{
-    color:#FF8A80;
-}   
-
-.RedA200{
-    color:#FF5252;
-}   
-
-
-.Red-A400{
-    color:#FF1744;
-}   
-
-
-.Red-A700{
-    color:#D50000;
-}   
-
-
-
-
-.text-aquamarine {
-    color: aquamarine;
-}
-.text-aqua {
-    color: aqua;
-}
-
-.text-bisque {
-    color: bisque;
-}
-.text-black {
-    color: black;
-}
-.text-blue {
-    color: blue;
-}
-.text-blueviolet {
-    color: blueviolet;
-}
-.text-brown {
-    color: brown;
-}
-.text-burlywood {
-    color: burlywood;
-}
-
-.text-c {
-    color: cadetblue;
-    color: chartreuse;
-    color: chocolate;
-    color: coral;
-    color: cornflowerblue;
-    color: crimson;
-    color: cyan;
-}
-
-.text-d {
-    color: d;
-}
-
-
-.text-white {
-  color: white;
-}
-
-.text-red {
-    color: red;
-}
-
-.text-orange {
-    color: orange;
-}
-
-.text-green {
-    color: green;
-}
-
-.text-rebeccapurple {
-    color: rebeccapurple;
-}
-
-
-.text-aquamarine {
-    color: rosybrown;
-    color: royalblue;
-    
-    color: tomato;
-    color: thistle;
-    color: teal;
-    color: tan;
-    color: turquoise;
-}
-
-/* end text color */
+/* end media queries */
