@@ -5,234 +5,232 @@
     box-sizing: border-box; 
     /*  -webkit-box-sizing, -moz-box-sizing, box-sizing يضبط ال margin و  padding الموجودة تلقائيا في الصفحة*/
 
-    margin: 0;
+    /* margin: 0;
     padding: 0;
     box-sizing: border-box;
-    overflow: auto;
+    overflow: auto; */
 }
 
 body {
-    line-height: 1.5;
+    /* line-height: 1.5; */
+    /* direction: rtl; تغير اتجاه العناصر لليمين */
+    direction: ltr; /* تغير اتجاه العناصر للشمال*/
 }
 
-.container {
-    width: 1200px;
+.container1 {
     width: 95%;
-    max-width: 1024px;
-    margin: 29px auto;
-}
-
-/* end global */
-
-
-
-
-/* start framework */
-
-ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-li, button, a, .submit {
-    cursor: pointer; /* يجعل الماوس على شكل يد عند الوقوف عن شئ معين */
-}
-
-.my-button {
-    background: none;
-    padding: 10px 30px;
-    font-weight: bold;
-}
-
-.fl-left {
-    float: left;
-}
-
-.fl-right {
-    float: right;
-}
-/* start framework */
+    /* max-width: 1024px; */
+    margin: 50px auto;
+    background-color: #eee;
+    padding: 10px;
+    display: flex;
+    /* display: inline-flex; */
+    flex-direction: row;
+     flex-direction: row-reverse; /* يجعل العنصر على اليمين و النص على الشمال */
+    /* flex-direction: column; */
+     /* flex-direction: column-reverse; يجعل النص يبدء من تحت الى فوق */
+    /* flex-wrap: nowrap; */
+      flex-wrap: wrap; /* يجعل العناصر تنزل للاسفل في حال تم زيادة عرض العنصر على عكس nowrap   */
+     /* flex-wrap: wrap-reverse; */
+    }
 
 
+    .container2 {
+        width: 95%;
+        /* max-width: 1024px; */
+        margin: 50px auto;
+        background-color: #eee;
+        /* padding: 10px; */
+        display: flex;
+     
+        /* flex-flow: row wrap; نفس وظيفة flex-wrap و flex-direction ولكن بشكل مختصر */
+         flex-flow: row-reverse wrap;
+         /* justify-content: flex-start; */
+         /* justify-content: flex-end; يبدء من النهاية للبداية على عكس flex-start */
+         justify-content: center;
+         /* justify-content: space-between; يضع مسافات بين العناصر */
+         justify-content: space-around; /* يضع مسافات حول العناصر من اليمين و الشمال*/
+        }
 
 
-/* strat heading style */
-P {
-    margin-top: 5px;
-    margin-bottom: 7px;
-    line-height: 1.7;
-    font-weight: bold;
-}
-
-h2 {
-    text-transform: uppercase; /*يجعل النص كبير*/
-    font-size: 30px;
+.container3 {
+    width: 207px;
+    height: 676px;
+    /* max-width: 1024px; */
+    margin: 50px auto;
+    background-color: #eee;
+    /* padding: 10px; */
+    display: flex;
+    /* align-items: flex-start; */
+    /* align-items: stretch; لا يتأقلم مع حجم النص الموضوع في العنصر ويجعل طول العنصر مثلما هو من دون ان يتزايد تلقائيا على عكس flex-start */
+     /* align-content: flex-end; تبدء العناصر من اسفل الى فوق  */
+    /* align-items: center; يصبح في الوسط ولكن بالطول وليس بالعرض */
+    /* align-items: baseline; يرجع العناصر لمكانها الطبيعي */
+    /* align-content: space-between; يضع مسافات بين كل عنصر ولكن بالطول على عكس justify-content: space-between */
+    align-content: space-around; /* يضع مسافات حول العناصر عند تضيق عرض ال container ولكن بالطول على عكس justify-content: space-around;*/
+    flex-wrap: wrap;
 } 
 
-h1, h2, h3, h4, h5, h6 {
-  margin-top: 10px;
-  margin-bottom: 10px;
-  font-weight: 300;
-}
-/* strat heading style */
+
+.container4 {
+    width: 381px;
+    height: 244px;
+    /* max-width: 1024px; */
+    margin: 50px auto;
+    background-color: #eee;
+    /* padding: 10px; */
+    display: flex;
+} 
 
 
+.container5 {
+    width: 869px;
+    height: 244px;
+    /* max-width: 1024px; */
+    margin: 50px auto;
+    background-color: #eee;
+    /* padding: 10px; */
+    display: flex;
+} 
+/* end global */
 
-
-/* start text alignment */
-.text-left {
-    text-align: left;
-}
-
-.text-center {
-    text-align: center;
-}
-
-.text-center {
-    text-align: right;
-}
-
-.text-justify {
-  text-align: justify; /* يجعل السطور متساوية */
-}
-/* end text alignment */
-
-
-
-
-/* start text color */
-.Red50{
-    color:#FFEBEE;
-}    
-.Red-100{
-    color:#FFCDD2;
-}   
-
-.Red-200{
-    color:#EF9A9A;
-}   
-
-.Red-300{
-    color:#E57373;
-}   
-
-.Red-400{
-    color:#EF5350;
-}   
-
-.Red-500{
-    color:#F44336;
-}   
-
-.Red-600{
-    color:#E53935;
-}   
-
-.Red-700{
-    color:#D32F2F;
-}   
-
-.Red-800{
-    color:#C62828;
-}   
-
-.Red-900{
-    color:#B71C1C;
-}   
-
-.Red-A100{
-    color:#FF8A80;
-}   
-
-.RedA200{
-    color:#FF5252;
-}   
-
-
-.Red-A400{
-    color:#FF1744;
-}   
-
-
-.Red-A700{
-    color:#D50000;
-}   
-
-
-
-
-.text-aquamarine {
-    color: aquamarine;
-}
-.text-aqua {
-    color: aqua;
+.container1 div {
+    color: #fff;
+    padding: 10px;
+    width: 250px;
+    height: 100px;
+    /* flex: 1; */
 }
 
-.text-bisque {
-    color: bisque;
-}
-.text-black {
-    color: black;
-}
-.text-blue {
-    color: blue;
-}
-.text-blueviolet {
-    color: blueviolet;
-}
-.text-brown {
-    color: brown;
-}
-.text-burlywood {
-    color: burlywood;
+.container2 div {
+    color: #fff;
+    padding: 10px;
+    width: 345px;
+    height: 100px;
+  
 }
 
-.text-c {
-    color: cadetblue;
-    color: chartreuse;
-    color: chocolate;
-    color: coral;
-    color: cornflowerblue;
-    color: crimson;
-    color: cyan;
+.container3 div {
+    color: #fff;
+    padding: 10px;
+    width: 250px;
+    max-height: 100%;
 }
 
-.text-d {
-    color: d;
+.container4 div {
+    color: #fff;
+    padding: 10px;
+    width: 103px;
+    max-height: 100px;
+    /* flex-grow: 0; يجعل عرض العناصر ثابتة في حال تم وضع flex-grow على عنصر معين ليزيد عرضعه واي عنصر يتم وضع فيه flex-grow سيصبح مرن وسيتقلص عرضه لمجرد ان زاد عرض عنصر اخر موضوع فيه ايضا flex-grow */
+    flex-shrink: 0;
 }
 
 
-.text-white {
-  color: white;
+.container5 div {
+    color: #fff;
+    padding: 10px;
+    max-height: 100%;
+    width: 150px;
+}
+/* .text {
+    display: inline-block
+} */
+
+
+.container1 div:first-of-type {
+    background-color: #080;
 }
 
-.text-red {
-    color: red;
+.container1 div:nth-of-type(2) {
+    background-color: #f00;
 }
 
-.text-orange {
-    color: orange;
-}
-
-.text-green {
-    color: green;
-}
-
-.text-rebeccapurple {
-    color: rebeccapurple;
+.container1 div:last-of-type {
+    background-color: #00f;
 }
 
 
-.text-aquamarine {
-    color: rosybrown;
-    color: royalblue;
-    
-    color: tomato;
-    color: thistle;
-    color: teal;
-    color: tan;
-    color: turquoise;
+
+
+
+.container2 div:first-of-type {
+    background-color: #080;
 }
 
-/* end text color */
+.container2 div:nth-of-type(2) {
+    background-color: #f00;
+}
+
+.container2 div:last-of-type {
+    background-color: #00f;
+}
+
+
+
+
+
+.container3 div:first-of-type {
+    background-color: #080;
+}
+
+.container3 div:nth-of-type(2) {
+    background-color: #f00;
+}
+
+.container3 div:last-of-type {
+    background-color: #00f;
+}
+
+
+
+
+.container4 .one {
+    background-color: #080;
+    order: 4; /*يمكن عبر ال order تغير ترتيب العناصر  بدلا من تغيره من ال html*/
+    /* flex-grow: 5; */
+}
+
+.container4 .two {
+    background-color: #f00;
+    order: 1;
+    flex-shrink: 3; /* flex-shrink يجعل العناصر التي تم وضع عليها flex-shrinkتتقلص تلقائيا في حال تم تقليل من مساحة ال container و اذا تم وضع 0 فلن فلن يتقلص */
+}
+
+.container4 .three {
+    background-color: #00f;
+    order: 2;
+    /* flex-grow: 1; */
+}
+
+.container4 .four {
+    background-color: #ff9a00;
+    order: 3;
+    flex-shrink: 1;
+}
+
+
+
+.container5 .one {
+    background-color: #080;
+    /* flex-basis: auto;  */
+}
+
+.container5 .two {
+    background-color: #f00;
+    /* flex: 0 1 auto;  كود اختصاري
+    * 0 هو لكود flex-grow: 0 
+    * و 1 اختصار لكود flex-shrink 
+    * auto هو لكود flex-basis */
+
+    flex: 1 1 auto;
+}
+
+.container5 .three {
+    background-color: #00f;
+    /* flex-basis: 200px; */
+}
+
+.container5 .four {
+    background-color: #ff9a00;
+}
