@@ -28,10 +28,10 @@ body {
     flex-direction: row;
      flex-direction: row-reverse; /* يجعل العنصر على اليمين و النص على الشمال */
     /* flex-direction: column; */
-     /* flex-direction: column-reverse; يجعل النص يبدء من تحت الى فوق */
+    /* flex-direction: column-reverse; يجعل النص يبدء من تحت الى فوق */
     /* flex-wrap: nowrap; */
       flex-wrap: wrap; /* يجعل العناصر تنزل للاسفل في حال تم زيادة عرض العنصر على عكس nowrap   */
-     /* flex-wrap: wrap-reverse; */
+    /* flex-wrap: wrap-reverse; */
     }
 
 
@@ -63,7 +63,7 @@ body {
     display: flex;
     /* align-items: flex-start; */
     /* align-items: stretch; لا يتأقلم مع حجم النص الموضوع في العنصر ويجعل طول العنصر مثلما هو من دون ان يتزايد تلقائيا على عكس flex-start */
-     /* align-content: flex-end; تبدء العناصر من اسفل الى فوق  */
+    /* align-content: flex-end; تبدء العناصر من اسفل الى فوق  */
     /* align-items: center; يصبح في الوسط ولكن بالطول وليس بالعرض */
     /* align-items: baseline; يرجع العناصر لمكانها الطبيعي */
     /* align-content: space-between; يضع مسافات بين كل عنصر ولكن بالطول على عكس justify-content: space-between */
@@ -194,7 +194,7 @@ body {
 .container4 .two {
     background-color: #f00;
     order: 1;
-    flex-shrink: 3; /* flex-shrink يجعل العناصر التي تم وضع عليها flex-shrinkتتقلص تلقائيا في حال تم تقليل من مساحة ال container و اذا تم وضع 0 فلن فلن يتقلص */
+    flex-shrink: 3; /* flex-shrink يجعل العناصر التي تم وضع عليها flex-shrinkتتقلص تلقائيا في حال تم تقليل من مساحة ال container و اذا تم وضع 0 فلن يتقلص */
 }
 
 .container4 .three {
