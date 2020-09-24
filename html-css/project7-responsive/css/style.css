@@ -27,7 +27,7 @@ ul {
 
 .container {
     width: 90%;
-    max-width: 1100px;
+    max-width: 930px;
     margin: auto;
 }
 
@@ -62,7 +62,7 @@ ul {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 60px;
+    max-height: 60px;
     padding: 20px 0;
     font-size: 13px;
 }
@@ -96,7 +96,7 @@ ul {
     cursor: pointer;
     position: absolute;
     top: 20px;
-    right: 30px;
+    right: 18px;
     z-index: 2;
     display: none;
 }

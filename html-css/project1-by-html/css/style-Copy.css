@@ -756,7 +756,8 @@ margin-bottom: 45px;
 
 .contact .form input[type="text"]
 {
- background-color: #4b5557;
+ /* background-color: #4b5557; */
+ background-color: #8f1818;
  color: #fff;
  padding: 10px;
  border: 0;
@@ -766,7 +767,8 @@ margin-bottom: 45px;
 
 .contact .form textarea
 {
- background-color: #4b5557;
+ /* background-color: #4b5557; */
+ background-color: #8f1818;
  color: #fff;
  padding: 10px;
  border: 0;
@@ -864,11 +866,11 @@ margin-bottom: 45px;
     padding: 5px;
 }
 
-.footer ul li i
+/* .footer ul li i
 {
  font-family: "font-awesome";
  font-weight: 900;
-}
+} */
 
 .footer ul li a:hover
 {
