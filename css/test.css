@@ -121,11 +121,6 @@ table th { background-color: #676767; font-weight: bold; color: gold; padding: 5
  {
       color: green;
 }
-
-function sayHello
-  {
-      alert("Hello HTML");
-  }
   
 fieldset
 {

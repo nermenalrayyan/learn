@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+body {
+    color: #fff;
+    font-size: 22px;
+    text-align: center;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+div {
+    padding: 10px;
+    margin: 15px 0;
+    height: 558px;
+}
+
+/* screen phone */
+@media (min-width: 320px) and (max-width: 539px) { 
+  .phone {
+    background-color: red;
+
+  }
+  
+  .tablet,
+  .laptop, .Display
+  {
+    display: none;
+  } 
+}
+
+
+
+/* screen tablet */ 
+@media (min-width: 540px) and (max-width: 767px) {
+  .tablet {
+    background-color: green;
+  }
+  
+ .phone,
+  .laptop, .Display
+  {
+    display: none;
+  } 
+}
+
+
+
+/* screen laptop */ 
+@media (min-width: 768px) and (max-width: 1024px) {
+  .laptop {
+    background-color: black;
+  }
+  
+  .phone, .tablet,
+  .Display
+  {
+    display: none;
+  } 
+}
+
+
+
+/* screen  display */
+@media (min-width: 1025px) {
+  .Display {
+    background-color: orange;
+    height: 4258px;
+  }
+  
+  .phone, .tablet,
+  .laptop
+  {
+    display: none;
+  } 
+}
+    </style>
+</head>
+<body>
+    <div class="phone">Size Of The Phone</div>  
+
+<div class="tablet">Size Of The Tablet</div>
+
+<div class="laptop">Size Of The Laptop</div>
+
+<div class="Display">Size Of The  Display</div>
+</body>
+</html>
