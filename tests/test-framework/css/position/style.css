@@ -1,0 +1,23 @@
+* {
+			margin: 0;
+			padding: 0;
+			text-decoration: none;
+			list-style-type: none;
+		}
+		
+		
+			.row {
+  margin-bottom:30px;
+}
+
+.col {
+/*   background: green; */
+/*   color: white; */
+  width: fit-content;
+/*   padding: 10px; */
+/*   margin:1rem; */
+/*   display: inline-block; */
+  border: 5px solid black;
+  font-size: 25px;
+  font-weight: bold;
+}

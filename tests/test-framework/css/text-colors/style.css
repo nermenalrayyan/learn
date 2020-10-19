@@ -1,0 +1,260 @@
+.row {
+  margin-bottom:30px;
+}
+
+.col {
+/*   background: green; */
+/*   color: white; */
+  width: fit-content;
+  padding: 10px;
+  margin:1rem;
+  display: inline-block;
+  border: 5px solid black;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+/* text yellow */
+.text-yellow-1 {
+  color: #FFF200 !important;
+}
+.text-yellow-2 {
+  color: #FFD300 !important;
+}
+.text-yellow-3 {
+  color: #F8DE7e !important;
+}
+.text-yellow-4 {
+  color: #FCD12A !important;
+}
+.text-yellow-5 {
+  color: #FCE205 !important;
+}
+.text-yellow-6 {
+  color: #FEDC56 !important;
+}
+.text-yellow-7 {
+  color: #E4CD05 !important;
+}
+.text-yellow-8 {
+  color: #FEE12b !important;
+}
+.text-yellow-9 {
+  color: #FADA5E !important;
+}
+.text-yellow-10 {
+  color: #F8E473 !important;
+}
+.text-yellow-11 {
+  color: #EFFD5F !important;
+}
+.text-yellow-12 {
+  color: #D2B55b !important;
+}
+.text-yellow-13 {
+  color: #FCF4A3 !important;
+}
+.text-yellow-14 {
+  color: #EEDC82 !important;
+}
+.text-yellow-15 {
+  color: #FFFDD0 !important;
+}
+.text-yellow-16 {
+  color: #FFE5B4 !important;
+}
+.text-yellow-17 {
+  color: #CEB180 !important;
+}
+.text-yellow-18 {
+  color: #D5B85A !important;
+}
+.text-yellow-19 {
+  color: #F9E29c !important;
+}
+.text-yellow-20 {
+  color: #E3B778 !important;
+}
+/* text-orange */
+/* .text-orange-1 {
+  color: # !important;
+}
+.text-orange-2 {
+  color: # !important;
+}
+.text-orange-3 {
+  color: # !important;
+}
+.text-orange-4 {
+  color: # !important;
+}
+.text-orange-5 {
+  color: # !important;
+}
+.text-orange-6 {
+  color: # !important;
+}
+.text-orange-7 {
+  color: # !important;
+}
+.text-orange-8 {
+  color: # !important;
+}
+.text-orange-9 {
+  color: # !important;
+}
+.text-orange-10 {
+  color: # !important;
+}
+.text-orange-11 {
+  color: # !important;
+}
+.text-orange-12 {
+  color: # !important;
+}
+.text-orange-13 {
+  color: # !important;
+}
+.text-orange-14 {
+  color: # !important;
+}
+.text-orange-15 {
+  color: # !important;
+}
+.text-orange-16 {
+  color: # !important;
+}
+.text-orange-17 {
+  color: # !important;
+}
+.text-orange-18 {
+  color: # !important;
+}
+.text-orange-19 {
+  color: # !important;
+}
+.text-orange-20 {
+  color: # !important;
+} */
+/* text-red */
+/* .text-red-1 {
+  color: # !important;
+}
+.text-red-2 {
+  color: # !important;
+}
+.text-red-3 {
+  color: # !important;
+}
+.text-red-4 {
+  color: # !important;
+}
+.text-red-5 {
+  color: # !important;
+}
+.text-red-6 {
+  color: # !important;
+}
+.text-red-7 {
+  color: # !important;
+}
+.text-red-8 {
+  color: # !important;
+}
+.text-red-9 {
+  color: # !important;
+}
+.text-red-10 {
+  color: # !important;
+}
+.text-red-11 {
+  color: # !important;
+}
+.text-red-12 {
+  color: # !important;
+}
+.text-red-13 {
+  color: # !important;
+}
+.text-red-14 {
+  color: # !important;
+}
+.text-red-15 {
+  color: # !important;
+}
+.text-red-16 {
+  color: # !important;
+}
+.text-red-17 {
+  color: # !important;
+}
+.text-red-18 {
+  color: # !important;
+}
+.text-red-19 {
+  color: # !important;
+}
+.text-red-20 {
+  color: # !important;
+} */
+/* text-pink */
+/* .text-pink-1 {
+  color: # !important;
+}
+.text-pink-2 {
+  color: # !important;
+}
+.text-pink-3 {
+  color: # !important;
+}
+.text-pink-4 {
+  color: # !important;
+}
+.text-pink-5 {
+  color: # !important;
+}
+.text-pink-6 {
+  color: # !important;
+}
+.text-pink-7 {
+  color: # !important;
+}
+.text-pink-8 {
+  color: # !important;
+}
+.text-pink-9 {
+  color: # !important;
+}
+.text-pink-10 {
+  color: # !important;
+}
+.text-pink-11 {
+  color: # !important;
+}
+.text-pink-12 {
+  color: # !important;
+}
+.text-pink-13 {
+  color: # !important;
+}
+.text-pink-14 {
+  color: # !important;
+}
+.text-pink-15 {
+  color: # !important;
+}
+.text-pink-16 {
+  color: # !important;
+}
+.text-pink-17 {
+  color: # !important;
+}
+.text-pink-18 {
+  color: # !important;
+}
+.text-pink-19 {
+  color: # !important;
+}
+.text-pink-20 {
+  color: # !important;
+} */
