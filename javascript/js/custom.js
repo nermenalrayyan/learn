@@ -652,3 +652,26 @@ var myForms = document.getElementById('testform');
 myForms.innerText = document.forms[1].x1.type; // type = معرفة نوع الحقل ال input ان كان نوعه text, email, password, وغيرهم 
 
 /////////////////////////////////////////////////////////////////////////////////
+// الطريقة الرابعه: document.body
+
+var myBody = document.getElementById('showbody');
+
+// myBody.innerText = document.body.innerHTML; // يعرض العناصر و النصوص على الصفحه كما هي مكتوبة بالمحرر
+
+myBody.innerText = document.body.innerText; // يعرض فقط النصوص
+
+if (document.body.innerText.indexOf('xnermenx') > -1) {
+    console.log('yes This Strong Is Exist');
+}
+
+
+
+
+
+
+// الطريقة الخامسة: document.anchors + document.links
+var myAnchors = document.getElementById('anchors');
+
+myAnchors.innerText = document.anchors.length; //  anchors سيبدأ بوضيفته عن كتابة name بدلا من href
+myAnchors.innerText = document.links.length; // الفرق بين document.anchors , document.links هو ان anchors يتفحص ال href الموجودة باخل tag a اما links يتفحص اللينك نفسه 
+
