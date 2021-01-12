@@ -1,0 +1,172 @@
+/* المصدر: https://youtu.be/Z2YMZhbJHnE */
+
+/* 
+هنا يوضع بياناتك حتى يستطيع المبرمج الاخر او العميل لمعرفة من الذي وضع هذه الاكواد ومعرفة بياناتك
+
+* Template Name        : My Tamplate مثلا
+* Template Version : v 1.2.3
+* Phone            : 00971الى اخره
+* Contact Me       : n.alrayyan5@gmail.com
+*/
+
+
+/* وضع عناصر ال css بنفس ترتيب عناصر ال html الخاصه بالصفحه */
+
+/* Start section 1 */
+
+.text {
+    /* استخدام Shorthand أفضل من كتابة عنصر ال margin او ال padding بكل اتجاهاته بنعاصر متفرقه مثل */
+    /* الطريقة الخاطئة */
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 30px;
+    margin-bottom: 50px;
+
+    margin: 20px 0 0 0;
+
+    /* الطريقة الصحيحة */
+    margin: 20px 10px 50px 30px;
+
+    margin-top: 20px;
+
+    /*                          */
+    /* الطريقة الخاطئة */
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-left: 30px;
+    padding-bottom: 50px;
+
+    padding: 0 0 0 10px;
+  
+    /* الطريقة الصحيحة */
+    padding: 20px 10px 50px 30px;
+
+    padding-bottom: 10px;
+
+    /*                          */
+    /* الطريقة الخاطئة */
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 300%;
+    font-family: Arial, Tahoma;
+  
+    /* الطريقة الصحيحة */
+    font: bold 40px/300% Arial, Tahoma;
+}
+
+/* End section 1 */
+
+
+
+/* Start section 2 */
+    /* ليس من الضرورة وضع علامة ; في العنصر الاخير او عند كتابة عنصر واحد */
+    /* الطريقة الخاطئة */
+.text {
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 300%;
+    font-family: Arial, Tahoma;
+}
+
+.text {
+    padding-bottom: 10px;
+}
+
+    /* الطريقة الصحيحة لا توضع علامة ; في اخر العنصر لانه لا يوجد تحته عنصر اخر ولا توضع في حال وضع فقط عنصر واحد ولا يوجد تحته عناصر اخره هذه العلامة توضع فقط اذا كان هنالك مجموعة عناصر حتى لا يكون هنالك تداخل بينهم */
+
+.text {
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 300%;
+    font-family: Arial, Tahoma
+}
+
+.text {
+    padding-bottom: 10px
+}
+
+/* End section 2 */
+
+
+
+
+
+/* عند انشاء قروب عناصر معينه اريد اعطاءها نفس الخصائص يجب ان تكون العناصر فوق بعضها وليس بجانب بعض حتى يتم قراءتها بسهولة */
+
+/* الطريقة الخاطئة */
+header p > ul, footer div > ul, aside p > span {
+
+} 
+
+/* الطريقة الصحيحة */
+header p > ul,
+footer div > ul,
+aside p > span {
+
+} 
+
+
+
+
+
+/* عند كتابة خاصية اللون اذا كانت الالرقام او الحروف متسشابهه يمكن اختصارها لثلاث حروف او ارقام */
+/* الطريقة العادية */
+.test {
+    color: #ff0000;
+    color: #000000;
+    color: #cccccc;
+}
+/* الطريقة المختصرة */
+.test {
+    color: #f00;
+    color: #000;
+    color: #ccc;
+}
+
+
+
+
+
+
+/* عند وضع قيمة 0 لخاصية معينه يجب ان تكتب 0 فقط */
+/* الطريقة الصحيحة */
+.test {
+    padding: 0px;
+    margin: 0%;
+}
+
+/* الطريقة الصحيحة */
+.test {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+
+/* عند كتابة اسم كلاس يجب وضع - بين كل كلمة وليس _ */
+/* الطريقة الخاطئة */
+.my_test {
+
+}
+
+/* الطريقة الصحيحة */
+.my-test {
+    
+}
+
+
+
+
+
+/* اذا اردت وضع خاصية لعنصر معين فاعطي العنصر اسم كلاس معين حتى اصل إليه بسهوله في ال css طالما ان اسم الكلاس ليس مكرر في الصفحة */
+/* الطريقة الخاطئة */
+.test .content ul li ul li span {
+    font-weight: bold;
+}
+
+/* الطريقة الصحيحة */
+.my-span {
+    font-weight: bold;
+}

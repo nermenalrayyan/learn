@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en"> <!-- يجب وضع كل كود بنفس سطر القفل الخاص به فيجب ان لا توضع جميع الاكواد على سطل واحد -->
+    <head>
+         <!-- start meta  --> <!-- يجب وضع اولا أكواد ال meta ثم كود ال title وليس العكس  --> 
+        <meta charset="‘UTF-8">
+
+         <meta name="viewport" content="width=device-width, initial-scale=1">
+         <!-- viewport بساعد على تنسيق الموقع باختلاف احجام الشاشات -->
+	
+         <meta name="keywords" content="هنا يوضع الكلمات المفتاحية الخاصة بمحتوى الموقع ">
+        
+         <meta name="description" content="هنا يكتب عبارة ترحيبية او وصف محتوى الموقع قبل دول المستخدم للموقع عن الصفحة البحث في المتصفح">
+         <!-- end meta -->
+
+         <title></title>
+
+
+ 
+
+        <!-- start links -->	
+      <!-- الطريقة الصحيحة لترتيب اكواد روابط الملفات يفضل أن تكتب ال rel اولا ثم ال href او العكس -->
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/style.css"> 
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/normalize.css">
+
+        <!-- الترتيب الخاطئ عند كتابة اكواد الروابط -->
+          <!-- الطريقة الصحيحة لترتيب اكواد روابط الملفات يفضل أن تكتب ال rel اولا ثم ال href او العكس -->
+          <link rel="stylesheet" href="css/style.css">
+          <link href="css/normalize.css" rel="stylesheet">
+          <link rel="stylesheet" href="css/style.css">
+          <link rel="stylesheet" href="css/normalize.css">
+          <link href="css/style.css" rel="stylesheet">
+          <link rel="stylesheet" href="css/normalize.css">
+          <link rel="stylesheet" href="css/style.css">
+          <link href="css/normalize.css" rel="stylesheet">
+          <link href="css/style.css" rel="stylesheet">
+          <link rel="stylesheet" href="css/normalize.css">
+          <link href="css/style.css" rel="stylesheet">
+          <link rel="stylesheet" href="css/normalize.css">
+             <!-- end links -->
+
+             <!-- يجب وضع عناصر ال css و ال js بملفات خارجية وليس بنفس ال html يوضعوا بال html عند الضرورة فقط -->
+    </head>
+
+    <body>
+        <!-- المصدر: https://youtu.be/cYAfw_jfTgI -->
+
+
+
+        <!-- مثال -->
+        <h2>الطريقة الخاطئة في كتابة الاكواد:</h2>
+        <div>
+        <div>
+        <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        </ul>
+        </div>
+        </div>
+
+        <h2>الطريقة الصحيحة في كتابة الاكواد هي عمل فواصل بين كل كود عن طريق التضليل على الكود ثم الضغط على زر Tab:</h2>
+        <div>
+            <div>
+                <p></p>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        
+
+
+
+        <!-- عند كتابة عنصر بداخل عنصر يجب ان لا يكون هنالك تداخل بين العنصرين مثل هكذا -->
+        <p>Hello<span>World</p></span>
+
+        <!-- بل يجب أن تكون هكذا -->
+        <p>Hello<span>World</span></p>
+
+        <!-- يجب ان تكون قفلة العنصر موجودة مثل -->
+        <p>Hello World</p>
+        <span>Hello World</span>
+
+        <!-- يجب ان لا تكون هكذا بدون قفل حتى اذا العنصر عمل في المتصفح بدون قفله -->
+        <p>Hello World
+        <span>Hello World
+        <hr>
+
+
+
+
+        <!-- لا يمكن وضع id اكثر من واحد في نفس الصفحه على عكس ال class اما ال id يوضع مرة واحده فقط في الصفحة لان وظيفته الوصول الى مكان معين او رابط بعين-->
+             <div id="div"></div>
+             <div class="div"></div>
+             <div class="div"></div>
+             <div class="div"></div>
+             <div class="div"></div>
+             <div class="div"></div>
+
+
+
+          
+        <!-- يجب ان لا يستخدم عنصر ال div على اي شئ تستخدم فقط عند الضرورة مثل -->
+        <!-- الطريقة الخاطئة وضع div بداخله ul لان ال ul عنصر block مثل ال div -->
+        <div>
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+        <hr>
+
+             
+
+
+        <!-- يجب وضع اسماء classes توصف العنصر الخاص به ولا يكون اسم عام  -->
+        <!-- الطريقة الخاطئة -->
+        <div class="blue">Blue Text</div>
+        <div class="red">red List</div>   
+        
+        <!-- الطريقة الصحيحة هو وصع اسم يكون اكثر تحديد لوصف العنصر مثل -->
+        <div class="my-blue-text">Blue Text</div>
+        <div class="my-red-list">red List</div>
+        <hr>
+
+
+
+
+        
+        <!-- عند كتابة نصوص يجب ان تكون النصوص حجم صغيرة و يتم جعلها اكبر عبر ال css وليس ال html -->
+        <!-- الطريقة الخاطئة -->
+        <div>HELLO WORLD</div>
+
+        <!-- الطريقة الصحيحة كتابتها بحجم صغير وتكبيرها بال css -->
+        <div>hello world</div>
+        <hr>
+
+
+
+
+        <!-- عند وضع عنصر نصي يفضل ان يكون عنصر فيه خاصية ال block مثل حتى يفصل تلقائيا بين العناصر التي فوقها و تحتها دون الخاجه لعمل مسافات يدويا -->
+        <!-- الطريقة الخاطئة اذا لم يكن هنالك طريقة اخرى لوضع النص في عنصر block فيجب وضع المسافات عن طريقة ال css وليس عن طريق وضع br -->
+        <br><br>
+        <span>Span Text</span>
+        <br><br>
+
+        <!-- الطريقة الصحيحة -->
+        <p>Text</p>
+        <h3>Text</h3>
+        <hr>
+
+
+ 
+
+        <!-- عدم صنع عناصر من تلقاء نفسك اذا كان هنالك عنصر جاهز يوفي بنفس الغرض -->
+        <!-- الطريقة الخاطئة -->
+        <span class="headeing">
+            Heading 1
+        </span>
+
+        <!-- الطريقة الصحيحة -->
+        <h1>Heading 1</h1>
+        <hr>
+
+
+
+
+
+        <!-- ليس كل العناصر تحتاج ل container مثل عنصر ال article -->
+        <!-- الطريقة الخاطئة -->
+        <div class="container">
+            <div class="header">Header</div>
+            <div class="content">Content</div>
+            <div class="footer">Footer</div>
+        </div>
+
+        <!-- الطريقة الصحيحة -->
+        <article>
+            <header>
+                <h1>Article Name</h1>
+                <p>Posted Date: Today , Author: Admin</p>
+            </header>
+            <section>
+                <img src="" alt="">
+            </section>
+            <footer>
+                Views: 1000, Likes: 250
+            </footer>
+        </article>
+        <hr>
+
+
+
+
+
+        <!-- عند تقسم الصفحة يجب ان تكون العناصر موجودة بأماكنها -->
+        <!-- الطريقة الخاطئة -->
+        <header>
+            Header
+        </header>
+
+        <div class="content">
+            Content
+        </div>
+
+        <footer>
+            Footer
+        </footer>
+
+        <aside>
+            Sidebar
+        </aside>
+
+        <!-- الطريقة الصحيحة -->
+        <header>
+            Header
+        </header>
+
+        <div class="content">
+            Content
+        </div>
+
+        <aside>
+            Sidebar
+        </aside>
+
+        <footer>
+            Footer
+        </footer>
+        <hr>
+
+
+
+
+
+        <!-- وضع comment بين كل عنصر و ونفس السطر الخاص به ويجب ان تكون جميعاها بسافات بين ال comment و العنصر او بدون مسافات-->
+
+        <!-- Start Header -->
+
+        <header>
+
+           <!-- Start Div -->
+
+           <div>
+
+           </div>
+
+           <!-- End Div -->
+
+        </header>
+
+        <!-- End Header -->
+        <hr>
+
+
+
+
+
+        <!-- عند وضع & يجب ان تكون الكود الخاص بها -->
+        <!-- الطريقة الخاطئة -->
+        <p>Nermen & Frinds</p>
+
+        <!-- الطريقة الصحيحة -->
+        <p>Nermen &amp; Frinds</p>
+        <p>Copyright &copy; 2020</p>
+        <hr>
+
+
+
+
+
+        <!-- start links javascript -->
+        <!-- يجب وضع روابط ملفات ال js هنا فوق قفل ال body حتى يساعد المتصفح على تحميل الصفحة بشكل اسرع وحتى تضهر محتوى ال html قبل ال js -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.5.2/umd/popper.min.js" integrity="sha512-Jen3K+iRN4thSYDEyHwUGYFxNslAUCTV9P/g0k836eaoq/tplAUCzRPUyDxKUjBlKdJhamW7S3u7NWSGEEdIQw==" crossorigin="anonymous"></script>
+		
+        <script src="js/jquery-3.5.1.min.js"></script>
+        <script src="js/custom.js"></script>
+        <!-- end links javascript -->         
+    </body>
+
+</html>
